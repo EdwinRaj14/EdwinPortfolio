@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+    color:#F5F5F5;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Users/edwinaz/Desktop/Portfolio/20230302_163529.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 1%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 200px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+color: #000000;
+font-size: 18px;
+text-decoration: none;
+position: relative;
+
+}
+nav ul li a::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color:brown;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    font-size: 30px;
+    color:#000000;
+    margin-top: 10%%;
+}
+.header-text h1{
+    font-size: 20px;
+    margin-top: 4%%;
+    color: #000000;
+}
+.header-text h1 span{
+    color:darkred;
+}
