@@ -53,15 +53,49 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    font-size: 30px;
-    color:#000000;
-    margin-top: 10%%;
+    font-size: 60px;
+    color:#060202;
+    margin-top: 10%;
+}
+.header-text p span{
+    color:rgb(172, 68, 30);
 }
 .header-text h1{
-    font-size: 20px;
-    margin-top: 4%%;
+    font-size: 30px;
+    margin-top: 1%;
     color: #000000;
 }
 .header-text h1 span{
-    color:darkred;
+    color:rgb(142, 21, 132);
+}
+#about{
+   padding: 80px 0;
+   color: rgb(237, 236, 237);
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.colm-1{
+    flex-basis: 50%;
+}
+.colm-1 img{
+    width:75%;
+    padding: 0px;
+    border-radius: 25px;
+}
+.colm-2{
+    flex-basis: 50%;
+}
+.sub-title{
+    font-size: 30 px;
+    font-weight: 600;
+    color: #F5F5F5;
+}
+.colm-2 p{
+    font-size: 18px;
+    color: rgb(250, 136, 7);
+    font-family:Arial, Helvetica, sans-serif;
+  
 }
