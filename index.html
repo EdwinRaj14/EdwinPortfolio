@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img  src="/Users/edwinaz/Desktop/Portfolio/logo.png" class="logo">
+                <ul>
+                    <li><a href="@">Home</a></li>
+                    <li><a href="@">About</a></li>
+                    <li><a href="@">Skills</a></li>
+                    <li><a href="@">Experience</a></li>
+                    <li><a href="@">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p> QA Engineer<span>@ Amazon</span> </font></p>
+                <h1>Hi, I'm <span>Edwin Raj</span> from chennai</h1>
+            </div>
+        </div>
+    </div>
+  <!-------------about----------- -->
+    <div id="about">
+<div class="container">
+<div class="row">
+<div class="colm-1"><img src="/Users/edwinaz/Desktop/Portfolio/Background.jpeg" ></div>
+<div class="colm-2">
+    <h1 class="sub-title">About me</h1>
+    <br>
+    <p>About 2.5 years of experience in Testing which involves both automation and manual. 
+        Manual testing consists Load testing, regression testing, sanity testing, country launches, new feature testing, test plan creation.
+        <br><br>
+        well familirized in core java with selenium and appium. The frame work I work for TestNG with POM (page object model)structure.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>(QAT)Quality assurance and testing in Amazon (June 2022-present)</span><br>1 year of experience as Quality assurance and testing in amazon</li>
+                        <li><span>(QS)Quality service associate in Amazon (August 2020-June 2022)</span><br>About 2 years of experience in qs associate in amazon </li>
+                        <li><span>Site Engineer (may 2018 to july 2019)</span><br>Site Engineer in vgk builders</li>
+                        <li><span>Site Engineer(June 2017 to April 2018)</span><br>Site Engineer in Kaveri builders</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Automation</span><br>Selenium & Appium(TestNG, Page object model, Data driven framework, Maven)</li>
+                        <li><span>Java</span><br>Core java (Strong in oops)</li>
+                       <li><span>GIT</li>
+                    </ul>
+                </div>
+                       
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Sri Krishna Institute of Technology(Batch 2013-2017)</span><br>Pursued Bachelor of Engineering in civil with a CGPA of 6.34.</li>
+                                <li><span>C.S.I Corley Higher Secondary
+                                    School (Batch 2011-2013)</span><br>Pursued My Twelth Standard
+                                    with a Percentage of 69.</li>
+                               <li><span>C.S.I Corley Higher Secondary
+                                School (Batch 2009-2011)</span><br>Pursued My Tenth Standard
+                                with a Percentage of 89.</li>
+                            </ul>
+                        </div>
+</div>
+</div>
+</div>
+    </div>
+
+    <!-- contact------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>edwinrajcool@gmail.com</p>
+                    <p> <i class="fas fa-clock" style="font-size:48px;color:red;"></i></i>+91-7845704938</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/edwin-raj-a-34a00b110/"><i class="fas fa-clock" style="font-size:48px;color:red;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        
+                </div>
+            </div>
+                <div class="contact-right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents= document.getElementsByClassName("tab-contents");
+function opentab(newtabs){
+    for (tablink of tablinks){
+        tablink.classList.remove("active-links");
+    }
+    for (tabcontent of tabcontents){
+       tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(newtabs).classList.add("active-tab");
+}
+
+
+    </script>
+
+</body>
+</html>
